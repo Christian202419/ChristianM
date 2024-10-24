@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
+    <meta name="description" content="Profile of Christian Mediana, a Front End Developer and BSIT student.">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             text-align: center;
-            background-image: url('background.jpg');
+            background-image: url('background.jpg'); /* Ensure the path is correct */
             background-size: cover;
             background-position: center;
         }
@@ -32,7 +33,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
             padding: 20px;
@@ -55,16 +56,22 @@
         li {
             margin-bottom: 5px;
         }
+        footer {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="image/picture.jpg" alt="Profile Picture" width="150">
+            <img src="image/picture.jpg" alt="Profile Picture of Christian Mediana" width="150"> 
             <h1>Christian Mediana</h1>
-            
+            <p>Front End Developer</p>
         </header>
         <section class="section">
+            <h2>About Me</h2>
+            <p>I’m currently a BS Information Technology student, learning about software development, web design, and data management. I’m really into tech and enjoy figuring out how things work. I’m excited to keep learning and get hands-on experience in the IT world as I go through my studies.</p>
+
             <h2>Personal Information</h2>
             <ul>
                 <li>Date of Birth: January 19, 2004</li>
@@ -74,11 +81,30 @@
             </ul>
         </section>
         <section class="section">
+            <h2>Skills:</h2>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Adaptability</li>
+                <li>Communication</li>
+                <li>Collaboration and Teamwork</li>
+            </ul>
+        </section>
+        <section class="section">
             <h2>Education</h2>
             <p>Bachelor of Science in Information Technology</p>
             <p>Araullo University</p>
         </section>
+
+        <a href="https://web.facebook.com/C.Mediana19/" class="btn">Visit Facebook</a>
+        <footer>
+            <a href="main.html" class="btn">Exit</a>
+        </footer>
     </div>
-    <a href="main.html" class="btn">Exit</a>
 </body>
 </html>
